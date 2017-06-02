@@ -1,0 +1,14 @@
+DOM = Document Object Model
+
+Structured representation of an HTML Document
+
+The DOM is used to connect webpages to scripts like JS.
+
+For each HTML boxes, there is an object in the DOM that 
+we can access and interact with right inside the DOM.
+
+JS ---------------------->>>>> DOM
+JS <<<<<---------------------- DOM
+Interaction/Manipulation (Inbuilt Methods)
+
+

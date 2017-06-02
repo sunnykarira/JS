@@ -1,0 +1,18 @@
+Events: Notifications that are sent to notify the code that something happened on the webpage.
+
+Examples: Clicking a Button, Resizing a window, Scrolling down or pressing the key.
+
+Event Listeners: A function that performs an action based on a certain event. It waits for specific event to happen.
+
+
+Message Queue: When execution stack is empty . We have msg queue in JS engine. All the events that happen in the browser are put and are processed.
+
+What is a callback function?
+A function that is not called by us but by another function. A function that we pass into another function as 
+an argument and then event listener will call it.
+
+Annonymous Function?
+A function that does not have a name and cannot be reused.
+
+What is a state variable?
+Tells us a condition of a system. We need it because we need to remember something. Is or game playing or not playing
