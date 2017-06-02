@@ -1,0 +1,49 @@
+Lesson 45
+
+Everything is an object (Not 100% correct)
+
+Primitives: Number, Strings, Booleans, Undefined, Null
+
+Everything Else: Arrays, Functions, Objects, Dates, Wrappers for Numbers, Strings, Booleans is an Object
+
+Object-Oriented Programming(
+	Objects Inteacting with one another through methods and properties
+	Used to store data, structure applications into modules and keeping code clean
+	Eg: 
+	var john = {
+		name: 'John',
+		yearOfBirth: 1990,
+		isMarried: false
+	}
+)
+
+But there is a better way which is blue print from which we can create as many objects as we want
+Person(name, yearOfBirth, job, calculateAge())
+
+In other languages it is called class. But it JS it is called a CONSTRUCTOR OR PROTOTYPE. (Effectively person instances).
+
+
+
+-------------------------------------- Inheritance --------------------------------
+When object is based on another object. Its when one object gets access of one object properties and methods.
+
+Person(name, yearOfBirth, job, calculateAge())
+Athelete(olympics, olympicMedals, allowedOlympics())
+
+Athelete is also a person. Therefore Athelete inherit from Person.
+
+Athelete(name, yearOfBirth, job, calculateAge(), olympics, olympicMedals, allowedOlympics())
+
+--------------------------------------------------------------------------------
+-JS is prototype based language. Therefore inheritance is made possible by the prototype property of every object.
+-Prototype property of an object is where we put is where we put methods and properties that we want other objects
+to inherit.
+
+Inheritance Scene
+John [Prototype Property()] ---> Person[Protype Property(calculateAge())] ---> Object [Prototype Property(hasOwnProperty(), isPrototypeof(), constructor(), toString()..... valueOf()))]
+
+Therefore person can inherit from object object prototype and then john can inherit from person and use it.
+This is called prototype chain.
+
+If we try to access a certain method or property JS will try to find the exact method or property on object. If it cannot find it then it will look into object's prototype which is property of its object parent and move up into chain. This is continued until null occurs as NULL has no prototype. (Final Link in prototype chain). Therefore undefined is returned.
+

@@ -1,0 +1,14 @@
+// Lesson 50
+
+Functions is an instance of an object type.
+
+A function vbehaves like any other object.
+
+We can store function in a variable.
+
+We can pass a function as an argument to another function.
+
+We can also return a function from a function.
+
+Therefore functions are called first class functions.
+
