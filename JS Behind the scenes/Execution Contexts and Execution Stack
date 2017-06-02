@@ -1,0 +1,25 @@
+Order in which the code is run.
+All JS code runs in a environment. This is called execution context. It is like a container which stores the code and runs it.
+
+Global Execution Context (Default){
+	
+	Code that is not inside any function.
+	Associated with global object.
+	In the browser thet is window object.
+
+	lastName === window.lastName
+	These both are same, lastNAme is property of window object
+}
+
+Whenever we call a function its gets it own execution stack.
+
+
+Execution Context third()
+Execution Context second()
+Execution Context first()
+Global Execution Context
+
+
+
+
+

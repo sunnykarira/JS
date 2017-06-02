@@ -1,0 +1,19 @@
+How is JS code executed?
+
+JS code is hosted in some environment i.e. mostly a browser (chrome, safari etc.). 
+Other hosts like nodejs apps.
+We will focus on the browser.
+
+
+Our code: 
+Host -> JS Engine (Host takes code and executes it)
+Engine - chromeV8, Spidermonkey
+
+
+
+Inside Engine:
+Code is parsed by parser. Seeks syntax of code is correct.
+Then parser produces a Abstract Syntax Tree.
+Then it gets converted into Machine Code.
+Then code runs.
+
