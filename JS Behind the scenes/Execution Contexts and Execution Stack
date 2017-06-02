@@ -21,5 +21,14 @@ Global Execution Context
 
 
 
+Execution context object includes(
+	
+	Variable object (VO)  [Hoisting]
+	Scope Chain
+	"This" Variable
+)
+
+
+
 
 
