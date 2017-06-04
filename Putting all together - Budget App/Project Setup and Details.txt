@@ -1,0 +1,41 @@
+//Lesson 60
+
+Allows us to add incomes and expenses for a certain months.
+How much money we have spent and what is left at the end.
+
+-------------------------------------------TODO LIST------------------------------
+ADD EVENT HANDLER
+GET INPUT VALUES
+ADD THE NEW ITEM TO OUR DATA STRUCTURE.
+ADD THE NEW ITEM TO THE UI
+CALCULATE BUDGET
+UPDATE THE UI
+
+
+// Modules
+Important aspect of any robust applictaion's architecture.
+Keep the units of code for a project both cleanly seperated and organized.
+Encapsulate some data into privacy and expose other data publicaly.
+
+-------------------------------------__UI MODULE -----------------------------
+GET INPUT VALUES
+UPDATE THE UI
+ADD THE NEW ITEM TO UI
+
+---------------------------------------DATA MODULE------------------------------
+ADD THE NEW ITEM TO DS.
+CALCULATE BUDGET
+
+--------------------------------------CONTROLLER MODULE----------------------
+ADD EVENT HANDLER
+
+
+
+What is Module Pattern?
+
+
+
+More about private and public data, encapsulation and seperation of concerns?
+Encapsulation -- Hide internal details of a specific modeule from outside scope and we expose only public interface which is sometimes called
+an API.
+
