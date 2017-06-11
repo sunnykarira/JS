@@ -1,0 +1,18 @@
+// Lesson 73
+
+Event Delegation
+
+Event Bubbling: When an event is fired on some element in DOM than the exact same event 
+is triggered on all of the parent elements one at a time. (Event bubbles up in the DOM tree)
+
+Target Element: The element on which on the starting, event is fired. Imp is this
+target element is stored as a property in Event object.
+
+Event Delegation: If event is fired in the DOM tree then what we can do is put an
+event listener on a parent and wait for the event to bubble up and then can do what we want to do.
+
+USE CASES FOR EVENT DELEGATION
+
+1. When we have an element with lots of child element we are interested in.
+2. When we want an event handler attached to an element that is not yet in the DOM
+when our page is loaded.
